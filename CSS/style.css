@@ -1,0 +1,1828 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Montserrat&display=swap');
+
+/** FONT 1: font-family: 'Hammersmith One', sans-serif; **/
+/** FONT 2: font-family: 'Montserrat', sans-serif; **/
+
+*{ 
+    padding: 0vh;
+    margin: 0vh;
+}
+
+.sidenavbar
+{
+    border: 0.5vh solid rgb(20, 63, 107);
+    width: 15vw;
+    height: 100vh;
+    background-color: rgb(20, 63, 107);
+    position: fixed;
+}
+
+.sidenavbuttons
+{
+    margin-top: 2vh;
+    border: 0.31vh solid rgb(245, 83, 83);
+        width: 20vh;
+        height: 5vh;
+        border-radius: 8vh;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: rgb(245, 83, 83);
+}
+
+
+.sidenavfont1                                       
+{
+    font-size: medium;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-top: 1vh;
+    text-align: center;
+}
+
+.sidenavfont1 a
+{
+    text-decoration: none;
+    color: white
+}
+
+.sidenavfont2  /** FOR LONG TEXT IN THE SIDENAVBAR **/                           
+{
+    font-size: small;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-top: 0vh;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sidenavfont2 a
+{
+    text-decoration: none;
+    color: white
+}
+
+.sidenavfont3  /** FOR LONGER TEXT IN THE SIDENAVBAR **/
+{
+    font-size: small;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-top: 1vh;
+    text-align: center;
+    text-decoration: none;
+}
+
+.sidenavfont3 a
+{
+    text-decoration: none;
+    color: white
+}
+
+.logo
+{
+    border: 0vh;
+        padding: 0vh;
+        width: 20vh;
+        height: 20vh;
+        
+        border-radius: 50%;
+
+        margin-top: 1vh;
+        margin-left: auto;
+        margin-right: auto;
+
+
+    background-image: url(../IMAGES/LOGO.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.copyright
+{
+    margin-top: 1vh;
+    border: 0.31vh solid rgb(245, 83, 83);
+        width: 20vh;
+        height: 6vh;
+        border-radius: 8vh;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: rgb(245, 83, 83);
+}
+
+.copyrightfont
+{
+    color: white;
+    font-size: xx-small;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-top: 1.5vh;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.contactinfo1 /** FACEBOOK **/
+{
+    border: 0vh;
+        background-color: rgb(245, 83, 83);
+        padding: 0vh;
+        width: 5vh;
+        height: 5vh;
+        
+        border-radius: 50%;
+
+    margin-top: 1vh;
+    float: left;
+    margin-left: 6vh;
+
+    background-image: url(../IMAGES/CONTACTINFO1.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactinfo2 /** GITHUB **/
+{
+    border: 0vh;
+        background-color: rgb(245, 83, 83);
+        padding: 0vh;
+        width: 5vh;
+        height: 5vh;
+    
+        border-radius: 50%;
+
+    margin-top: 1vh;
+    margin-left: 12.625vh;
+    margin-right: 12.625vh;
+
+    background-image: url(../IMAGES/CONTACTINFO2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+
+.contactinfo3 /** GMAIL **/
+{
+    border: 0vh;
+        background-color: rgb(245, 83, 83);
+        padding: 0vh;
+        width: 5vh;
+        height: 5vh;
+        
+        border-radius: 50%;
+
+    margin-top: -5vh;
+    float: right;
+    margin-right: 6vh;
+
+    background-image: url(../IMAGES/CONTACTINFO3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.body1
+{
+    margin-left: 15vw;
+    background-image: url(../IMAGES/BACKGROUND1.jpg);
+        padding: 0vh;
+        width: 85vw;
+        height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subheading1 /** IMPORTANT NOTE: SUBHEADING REFERS TO BOXES WITH 
+            TEXT WHOSE FONT SIZE IS SMALLER THAN THE FONT SIZE OF TEXT IN A TITLE, 
+            BUT BIGGER THAN THAN THE FONT SIZE OF TEXT IN A PARAGRAPH**/
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        padding: 0vh;
+        width: 45vw;
+        height: 10vh;
+        border-radius: 8vh;
+    margin-top: 20vh;
+}
+
+.title
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        padding: 0vh;
+        width: 60vw;
+        height: 20vh;
+        border-radius: 2vh;
+    margin-top: 2.5vh;
+}
+
+.subheading2
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        padding: 0vh;
+        width: 45vw;
+        height: 10vh;
+        border-radius: 8vh;
+    margin-top: 2.5vh;
+}
+
+.startbutton /** "PROCEED TO THE STUDY" BUTTON **/
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        padding: 0vh;
+        width: 25vw;
+        height: 5vh;
+        border-radius: 8vh;
+    margin-top: 5vh;
+}
+
+.subheadingfont
+{
+    color: white;
+    font-size: x-large;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-top: 2.5vh;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.titlefont
+{
+    color: white;
+    font-size: xx-large;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-top: 5vh;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.startbuttonfont
+{
+    font-size: x-large;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-top: 0.5vh;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+.startbuttonfont a
+{
+    text-decoration: none;
+    color: white
+}
+
+/** START OF PAGE 1.html **/
+
+.body2 /** DIFFERENT BACKGROUND   **/
+{
+    margin-left: 15vw;
+    background-image: url(../IMAGES/BACKGROUND2.jpg);
+        padding: 0vh;
+        width: 85vw;
+        height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introsidenavbartextbox /** REFERS TO THE TEXT UNDER A SIDENAVBUTTON --
+                        FOR EXAMPLE: SIDENAVBUTTON                    |
+                                        > INTROSIDENAVBAR <-----------|
+                                        > INTROSIDENAVBAR  **/
+{
+    border: 0vh solid black;
+        width: 15vw;
+        height: 10vh;
+}
+
+.introsidenavbarfont
+{
+    color: white;
+    font-size: xx-small;
+    font-family: 'Hammersmith One', sans-serif;
+    text-wrap: wrap;
+
+    margin-top: 1vh;
+    margin-left: 4vw;
+}
+
+.introsidenavbarfont a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.navbarstyletitle /** REFERS TO THE TITLE OF THE PAGE AT THE TOP BESIDE THE SIDENAVBAR 
+                IT HAS A "NAVBAR" STYLE BECAUSE IT REMAINS FIXED EVEN WHILE SCROLLING**/
+{
+    border: 0vh solid black;
+        width: 84vw;
+        height: 20vh;
+    position: fixed;
+}
+
+.navbarstyletitlefont
+{
+    color: white;
+    font-size: xx-large;
+    font-family: 'Hammersmith One', sans-serif;
+    text-wrap: wrap;
+
+    float: left;
+    margin-left: 2vw;
+    margin-top: 5vh;
+}
+
+.aboutmebutton /** "WANT TO KNOW MORE ABOUT THE RESEARCHER BEHIND THE STUDY?" BUTTON **/
+{
+    margin-top: 2vh;
+    border: 0.31vh solid rgb(20, 63, 107);
+        width: 40vh;
+        height: 10vh;
+    border-radius: 8vh;
+    float: right;
+    margin-right: 10vw;
+    margin-top: 4vh;
+    background-color: rgb(20, 63, 107);
+}
+
+.aboutmebuttonfont
+{
+    font-size: medium;
+    font-family: 'Hammersmith One', sans-serif;
+    text-wrap: wrap;
+
+    float: left;
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.aboutmebuttonfont a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.paragraphbox /** THE BODY OF THE PAGE CONTAINS THE PARAGRAPH BOX 
+            WHICH IS A SORT OF INVISIBLE BOX (NO-BORDER) WHERE ALL ELEMENTS IN THE BODY WILL BE PLACED IN **/
+{
+    border: 0vh solid black;
+        width: 80vw;
+        height: 70vh;
+    margin-top: 15vh;
+}
+
+.paragraphsubbox1 /** THE PARAGRAPHBOX IS DIVIDED INTO THREE SUBBOXES, THIS BEING THE FIRST ONE **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 35vh;
+    display: flex;
+    align-items: center;
+}
+
+.paragraph1 /** A PARAGRAPH REFERS TO A BODY OF TEXT WHOSE FONT SIZE IS SMALLER THAN THE TEXT OF A SUBHEADING 
+            AND IT IS ALWAYS LONGER THAN A PHRASE AND CAN CONTAIN MULTIPLE SENTENCES**/
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 50vw;
+        height: 25vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    display: inline-block;
+}
+
+.picture1 /** REFERS TO AN IMAGE AND IT CAN EITHER BE A NORMAL PICTURE OR A SCREENSHOT OF AN EXCEL CHART OR GRAPH **/
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 20vw;
+        height: 28vh;
+    margin-left: 4vh;
+    background-image: url(../IMAGES/PICTURE1.jpg);
+    background-size: cover;
+    display: inline-block;
+}
+
+.paragraphfont
+{
+    color: white;
+    font-size: medium;
+    font-family: 'Hammersmith One', sans-serif;
+    text-wrap: wrap;
+
+    text-align: justify;
+    margin-top: 0.5vh;
+}
+
+.paragraphsubbox2 /** THE PARAGRAPHBOX IS DIVIDED INTO THREE SUBBOXES, THIS BEING THE SECOND ONE **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 35vh;
+    display: flex;
+    align-items: center;
+}
+
+.paragraph2
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 50vw;
+        height: 25vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    display: inline-block;
+    margin-bottom: 7.5vh;
+}
+
+.picture2
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 20vw;
+        height: 28vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE2.jpg);
+    background-size: cover;
+    display: inline-block;
+    margin-bottom: 7.5vh;
+}
+
+
+.paragraphsubbox3 /** THE PARAGRAPHBOX IS DIVIDED INTO THREE SUBBOXES, THIS BEING THE THIRD ONE **/
+{
+    border: 0vh solid black;
+        width: 73vw;
+        height: 15vh;
+}
+
+.nextbutton /** THE BUTTON WHEN CLICKED, TAKES YOU TO THE NEXT SUBTOPIC ------
+            FOR EXAMPLE:                                                     |
+                SIDENAVBUTTON                                                |
+                    > INTROSIDENAVBAR (CURRENT PAGE THAT YOU ARE ON)         |
+                    > INTROSIDENAVBAR  <-------------------------------------|
+                **/
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+    background-color: rgb(20, 63, 107);
+    border-radius: 2vh;
+    width: 25vw;
+    height: 5vh;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nextpartbutton /** THE BUTTON WHEN CLICKED, TAKES YOU TO THE NEXT TOPIC -----
+            FOR EXAMPLE:                                                     |
+                SIDENAVBUTTON                                                |                                 
+                    > INTROSIDENAVBAR (CURRENT PAGE THAT YOU ARE ON)         |      
+                    > INTROSIDENAVBAR                                        |
+                SIDENAVBUTTON <-----------------------------------------------
+    **/
+
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+    background-color: rgb(20, 63, 107);
+    border-radius: 2vh;
+    width: 40vw;
+    height: 5vh;
+
+    margin-top: 3vh;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nextbuttonfont
+{
+    color: white;
+    font-size: medium;
+    font-family: 'Hammersmith One', sans-serif;
+    text-wrap: wrap;
+
+    text-align: center;
+    margin-top: 0.5vh;
+}
+
+.nextbuttonfont a
+{
+    text-decoration: none;
+    color: white;
+}
+
+/** START OF PAGE 2.html **/
+
+.paragraph3
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 60vw;
+        height: 27vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    display: inline-block;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture3
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 50vw;
+        height: 28vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE3.jpg);
+    background-size: cover;
+    display: inline-block;
+    margin-bottom: 5vh;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraphsubbox3_1 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX3 **/
+{
+    margin-left: 7.6vw;
+    border: 0vh solid black;
+        width: 61.5vw;
+        height: 15vh;
+}
+
+/** START OF PAGE 3.html **/
+
+.paragraph4
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 60vw;
+        height: 23vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    display: inline-block;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture4
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 50vw;
+        height: 34vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE4.jpg);
+    background-size: cover;
+    display: inline-block;
+    margin-bottom: 5vh;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/** START OF PAGE 4.html **/
+
+.paragraph5
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 60vw;
+        height: 15vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    display: inline-block;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture5
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 50vw;
+        height: 34vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE5.jpg);
+    background-size: cover;
+    display: inline-block;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraphsubbox3_2 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX3 **/
+{
+    margin-left: 7.6vw;
+    border: 0vh solid black;
+        width: 61.5vw;
+        height: 2vh;
+}
+
+/** START OF PAGE 5.html **/
+
+.paragraphsubbox1_2 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX1 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 45vh;
+    align-items: center;
+}
+
+.body3 /** DIFFERENT BACKGROUND **/
+{
+    margin-left: 15vw;
+    background-image: url(../IMAGES/BACKGROUND3.jpg);
+        padding: 0vh;
+        width: 85vw;
+        height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experisidenavbartextbox /** SAME AS INTROSIDENAVBAR BUT FOR THE SIDENAV BUTTON EXPERIMENTAL UNITS **/
+{
+    border: 0vh solid black;
+        width: 15vw;
+        height: 4vh;
+    margin-bottom: 3vh;
+}
+
+.experisidenavbarfont
+{
+    color: white;
+    font-size: xx-small;
+    font-family: 'Hammersmith One', sans-serif;
+    text-wrap: wrap;
+
+    margin-top: 1vh;
+    margin-left: 4vw;
+}
+
+.experisidenavbarfont a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.paragraphfont_2 /** A DIFFERENT VERSION OF PARAGRAPHFONT **/
+{
+    color: white;
+    font-size: medium;
+    font-family: 'Hammersmith One', sans-serif;
+    text-wrap: wrap;
+
+    text-align: center;
+    margin-top: 0.5vh;
+}
+
+.paragraphsubbox2_1 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX2 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 25vh;
+    display: flex;
+    align-items: center;
+}
+
+.picture6
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 50vw;
+        height: 34vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE6.jpg);
+    background-size: cover;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraph6
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 60vw;
+        height: 5vh;
+        padding: 2vh;
+        border-radius: 2vh;
+
+    margin-top: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraph7
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 30vw;
+        height: 15vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    display: inline-block;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/** START OF PAGE 6.html **/
+
+.paragraphsubbox1_3 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX1 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 35vh;
+}
+
+.picture7
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 50vw;
+        height: 34vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE7.jpg);
+    background-size: cover;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraphsubbox1_3_1 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX1_3 **/
+{
+    border: 0vh solid black;
+    width: 78vw;
+    height: 7.5vh;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.subheading3
+{
+    border: 0vh solid black;
+        background-color: rgb(20, 63, 107);
+        width: 25vw;
+        height: 4vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    display: inline-block;
+
+    margin-top: 5vh;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.subheadingfont_2 /** A DIFFERENT VERSION OF SUBHEADINGFONT **/
+{
+    color: white;
+    font-size: x-large;
+    font-family: 'Hammersmith One', sans-serif;
+    text-wrap: wrap;
+
+    text-align: center;
+}
+
+.paragraph8
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 30vw;
+        height: 15vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    margin-top: 5vh;
+    display: inline-block;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spacer /** INVISIBLE RECTANGLE TO SPACE OUT TEXT IN A PARAGRAPH **/
+{
+    border: 0vh;
+    width: 30vw;
+    height: 1vh;
+    padding: 2vh;
+    border-radius: 2vh;
+}
+
+/** START OF PAGE 7.html **/
+
+.body3_1 /** DIFFERENT BACKGROUND **/
+{
+    margin-left: 15vw;
+    background-image: url(../IMAGES/BACKGROUND4.jpg);
+        padding: 0vh;
+        width: 83.90vw;
+        height: 165vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbarstyletitlefont_2 /** A DIFFERENT VERSION OF NAVBARSTYLETITLEFONT FOR LONGER TEXT **/
+{
+    color: white;
+    font-size: larger;
+    font-family: 'Hammersmith One', sans-serif;
+    text-wrap: wrap;
+
+    float: left;
+    margin-left: 2vw;
+    margin-top: 3.5vh;
+}
+
+.navbarstyletitlebox /** A BOX AROUND THE TITLE TEXT OF NAVBARSTYLETITLE TO 
+                    IMPROVE VISUAL CLARITY WHEN SCROLLING DOWN THE PAGE **/
+{
+    border: 0vh;
+    background-color: rgb(245, 83, 83);
+        width: 47.5vw;
+        height: 10vh;
+    border-radius: 2vh;
+    float: left;
+    margin-left: 2vw;
+    margin-top: 4vh;
+}
+
+.aboutmebutton_2 /** A DIFFERENT VERSION OF ABOUTMEBUTTON (DIFFERENT COLOR TO MATCH WITH NAVBARSTYLETITLEBOX) **/
+{
+    margin-top: 2vh;
+    border: 0.31vh solid rgb(245, 83, 83);
+        width: 40vh;
+        height: 10vh;
+    border-radius: 8vh;
+    float: right;
+    margin-right: 10vw;
+    margin-top: 4vh;
+    background-color: rgb(245, 83, 83);
+}
+
+.paragraphsubbox1_4 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX1 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 75vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragraphsubbox2_2 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX2 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 60vh;
+}
+
+.picture8
+{
+    border: 0vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 50vw;
+        height: 30vh;
+    background-image: url(../IMAGES/PICTURE8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture9
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 28vw;
+        height: 39.5vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE9.png);
+    background-size: cover;
+
+    display: inline-block;
+
+    margin-left: 10vh;
+}
+
+.picture10
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 37.5vw;
+        height: 40vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE10.png);
+    background-size: cover;
+
+    display: inline-block;
+
+    margin-left: 3vh;
+}
+
+.statqualisidenavbartextbox /** SAME AS INTROSIDENAVBAR BUT FOR THE SIDENAV BUTTON STATISTICS OF QUALITATIVE**/
+{
+    border: 0vh solid black;
+        width: 15vw;
+        height: 4vh;
+    margin-bottom: 3vh;
+}
+
+.statqualisidenavbarfont
+{
+    color: white;
+    font-size: xx-small;
+    font-family: 'Hammersmith One', sans-serif;
+    text-wrap: wrap;
+
+    margin-top: 1vh;
+    margin-left: 4vw;
+}
+
+.statqualisidenavbarfont a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.subheading4
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 30vw;
+        height: 5vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    float: left;
+
+    margin-bottom: 0.5vh;
+}
+
+.paragraph9
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 50vw;
+        height: 12vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    float: left;
+}
+
+.subheading5
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 30vw;
+        height: 5vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    float: right;
+
+    margin-top: 3vh;
+    margin-bottom: 0.5vh;
+}
+
+.paragraph10
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 50vw;
+        height: 10vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    float: right;
+}
+
+.nextbutton_2 /** A DIFFERENT VERSION OF NEXTBUTTON **/
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+    background-color: rgb(20, 63, 107);
+    border-radius: 2vh;
+    width: 50vw;
+    height: 5vh;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/** START OF PAGE 8.html **/
+
+.body3_2 /** DIFFERENT BACKGROUND **/
+{
+    margin-left: 15vw;
+    background-image: url(../IMAGES/BACKGROUND4.jpg);
+        padding: 0vh;
+        width: 83.90vw;
+        height: 160vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraphsubbox1_5 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX1 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 75vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.picture11
+{
+    border: 0vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 50vw;
+        height: 19vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE11.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture12
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 37.5vw;
+        height: 50vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE12.png);
+    background-size: cover;
+
+    display: inline-block;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.picture13
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 37.5vw;
+        height: 50vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE13.png);
+    background-size: cover;
+
+    display: inline-block;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragraph11
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 50vw;
+        height: 10vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    float: left;
+}
+
+/** START OF PAGE 9.html **/
+
+.statquantisidenavbartextbox /** SAME AS INTROSIDENAVBAR BUT FOR THE SIDENAV BUTTON STATISTICS OF QUANTITATIVE **/
+{
+    border: 0vh solid black;
+        width: 15vw;
+        height: 4vh;
+    margin-bottom: 3vh;
+}
+
+.statquantisidenavbarfont
+{
+    color: white;
+    font-size: xx-small;
+    font-family: 'Hammersmith One', sans-serif;
+    text-wrap: wrap;
+
+    margin-top: 1vh;
+    margin-left: 4vw;
+}
+
+.statquantisidenavbarfont a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.body4 /** DIFFERENT BACKGROUND **/
+{
+    margin-left: 15vw;
+    background-image: url(../IMAGES/BACKGROUND5.jpg);
+        padding: 0vh;
+        width: 83.90vw;
+        height: 201vh;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.body4_1 /** PAGE 9 HAS TWO BACKGROUNDS BECAUSE IT HAS A VERY 
+        LONG SCROLL SO BODY4 IS THE FIRST BACKGROUND AND 
+        BODY4_1 IS THE SECOND BACKGROUND **/
+{
+    background-image: url(../IMAGES/BACKGROUND5_1.jpg);
+        padding: 0vh;
+        width: 83.90vw;
+        height: 192.5vh;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraphsubbox1_6 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX1 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 185vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragraphsubbox2_3 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX2 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 152.5vh;
+}
+
+.picture14
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 49vw;
+        height: 24vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE14.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    margin-bottom: 2vh;
+
+    margin-left: 33vh;
+}
+
+.picture15
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 55vw;
+        height: 45vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE15.png);
+    background-size: cover;
+    
+    margin-bottom: 2vh;
+
+    margin-left: 27vh;
+}
+
+.picture16
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 37.5vw;
+        height: 45vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE16.png);
+    background-size: cover;
+
+    margin-bottom: 2vh;
+
+    margin-left: 44vh;
+}
+
+.picture17
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 50vw;
+        height: 16.5vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE17.png);
+    background-size: cover;
+
+    margin-bottom: 2vh;
+
+    margin-left: 32vh;
+}
+
+.picture18
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 50vw;
+        height: 14vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE18.png);
+    background-size: cover;
+
+    margin-bottom: 2vh;
+
+    margin-left: 32vh;
+}
+
+.picture19
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 50vw;
+        height: 21vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE19.png);
+    background-size: cover;
+
+    margin-left: 32vh;
+}
+
+.subheading6
+{
+    border: 0vh solid black;
+        background-color: rgb(20, 63, 107);
+        width: 30vw;
+        height: 5vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    float: left;
+
+    margin-top: 3vh;
+    margin-bottom: 0.5vh;
+}
+
+.subheading7
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 30vw;
+        height: 5vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    float: right;
+
+    margin-top: 3vh;
+}
+
+.paragraph12
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 50vw;
+        height: 19vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    float: left;
+}
+
+.paragraph13
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 50vw;
+        height: 12.5vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    float: right;
+}
+
+.paragraph13_1 /** A DIFFERENT VERSION OF PARAGRAPH13 **/
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 50vw;
+        height: 7.5vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    float: right;
+}
+
+.paragraph13_2 /** A DIFFERENT VERSION OF PARAGRAPH13 **/
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 50vw;
+        height: 3vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    margin-top: 0.5vh;
+    margin-bottom: 3.5vh;
+    float: right;
+}
+
+.paragraph14
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 50vw;
+        height: 12.5vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    float: left;
+}
+
+.paragraphsubbox3_2_1 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX3_2 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 2vh;
+    margin-top: 25vh;
+}
+
+/** START OF PAGE 10.html **/
+
+.picture20
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 49vw;
+        height: 24vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE20.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    margin-bottom: 2vh;
+
+    margin-left: 33vh;
+}
+
+.picture21
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 55vw;
+        height: 47vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE21.png);
+    background-size: cover;
+    
+    margin-bottom: 2vh;
+
+    margin-left: 27vh;
+}
+
+.picture22
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 37.5vw;
+        height: 45vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE22.png);
+    background-size: cover;
+
+    margin-bottom: 2vh;
+
+    margin-left: 44vh;
+}
+
+.picture23
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 50vw;
+        height: 16.5vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE23.png);
+    background-size: cover;
+
+    margin-bottom: 2vh;
+
+    margin-left: 32vh;
+}
+
+.picture24
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 50vw;
+        height: 14vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE24.png);
+    background-size: cover;
+
+    margin-bottom: 2vh;
+
+    margin-left: 32vh;
+}
+
+.picture25
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        border-radius: 2vh;
+        width: 50vw;
+        height: 21vh;
+    margin-right: 4vh;
+    background-image: url(../IMAGES/PICTURE25.png);
+    background-size: cover;
+
+    margin-left: 32vh;
+}
+
+.body4_1_2 /** A DIFFERENT VERSION OF BODY4_1 **/
+{
+    background-image: url(../IMAGES/BACKGROUND5_1.jpg);
+        padding: 0vh;
+        width: 83.90vw;
+        height: 187.5vh;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraph12_1 /** A DIFFERENT VERSION OF PARAGRAPH12 **/
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 50vw;
+        height: 15vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    float: left;
+}
+
+.paragraph13_2 /** A DIFFERENT VERSION OF PARAGRAPH13 **/
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 50vw;
+        height: 5vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    margin-top: 0.5vh;
+    margin-bottom: 0.5vh;
+    float: right;
+}
+
+/** START OF PAGE 11.html **/
+
+.body5 /** DIFFERENT BACKGROUND **/
+{
+
+    margin-left: 15vw;
+    background-image: url(../IMAGES/BACKGROUND6.jpg);
+        padding: 0vh;
+        width: 83.90vw;
+        height: 112.5vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paragraphsubbox1_7 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX1 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 10vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.paragraphsubbox2_4 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX2 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 60vh;
+}
+
+.subheading8
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 75vw;
+        height: 5vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 3vh;
+}
+
+.paragraph15
+{
+    border: 0vh solid black;
+        background-color: rgb(20, 63, 107);
+        width: 75vw;
+        height: 67.5vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spacer_2 /** A DIFFERENT VERSION OF SPACER **/
+{
+    border: 0vh;
+    background-color: rgb(20, 63, 107);
+        width: 75vw; 
+        height: 4vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+.paragraphsubbox3_3 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX3 **/
+{
+    border: 0vh solid black;
+        width: 75vw;
+        height: 2vh;
+    margin-top: 15vh;
+}
+
+.nextpartbutton_2 /** A DIFFERENT VERSION OF NEXTPARTBUTTON **/
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+    background-color: rgb(20, 63, 107);
+    border-radius: 2vh;
+    width: 40vw;
+    height: 7.5vh;
+
+    margin-top: 3vh;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/** START OF PAGE 12.html **/
+
+.body6 /** DIFFERENT BACKGROUND **/
+{
+    margin-left: 15vw;
+    background-image: url(../IMAGES/BACKGROUND7.jpg);
+        padding: 0vh;
+        width: 83.90vw;
+        height: 140vh;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbarstyletitlebox_2 /** A DIFFERENT VERSION OF NAVBARSTYLETITLEBOX **/
+{
+    border: 0vh;
+    background-color: rgb(245, 83, 83);
+        width: 47.5vw;
+        height: 10vh;
+    border-radius: 2vh;
+    float: left;
+    margin-left: 2vw;
+    margin-top: 4vh;
+}
+
+.navbarstyletitlefont_3 /** A DIFFERENT VERSION OF NAVBARSTYLETITLEFONT **/
+{
+    color: white;
+    font-size: xx-large;
+    font-family: 'Hammersmith One', sans-serif;
+    text-wrap: wrap;
+
+    float: left;
+    margin-left: 2vw;
+    margin-top: 2.5vh;
+}
+
+.paragraphsubbox1_8 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX1 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 30vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.aboutmepicture /** SELF PORTRAIT PICTURE **/
+{
+    border: 0.4vh solid rgb(20, 63, 107);
+        width: 15vw;
+        height: 27.5vh;
+        border-radius: 2vh;
+    float: left;
+
+    background-image: url(../IMAGES/SELFPICTURE.jpeg);
+    background-size: cover;
+}
+
+.subheading9
+{
+    border: 0vh solid red;
+    background-color: rgb(20, 63, 107);
+        width: 60vw;
+        height: 7.5vh;
+        border-radius: 2vh;
+    margin-top: 15vh;
+    display: inline-block;
+    margin-left: 0.5vw;
+
+}
+
+.subheading10
+{
+    border: 0vh solid red;
+    background-color: rgb(20, 63, 107);
+        width: 60vw;
+        height: 5vh;
+        border-radius: 2vh;
+    margin-left: 15.75vw;
+}
+
+.subheadingfont_3 /** A DIFFERENT VERSION OF SUBHEADINGFONT **/
+{
+    color: white;
+    font-size: xx-large;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-top: 1vh;
+    margin-left: 0.5vh;
+    float: left;
+    text-wrap: wrap;
+}
+
+.subheadingfont_3_1 /** A DIFFERENT VERSION OF SUBHEADINGFONT_3_1 **/
+{
+    color: white;
+    font-size: x-large;
+    font-family: 'Hammersmith One', sans-serif;
+    margin-top: 0.5vh;
+    margin-left: 0.5vh;
+    float: left;
+    text-wrap: wrap;
+}
+
+.subheadingfont_3_1 a
+{
+    color: white;
+    text-decoration: none;
+}
+
+
+.paragraphsubbox2_5 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX2 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 9vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.paragraphsubbox2_5_1 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX2_5 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 27.5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.subheading11
+{
+    border: 0vh solid red;
+    background-color: rgb(20, 63, 107);
+        width: 25vw;
+        height: 7.5vh;
+        border-radius: 2vh;
+}
+
+.paragraph16
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 30vw;
+        height: 17.5vh;
+        padding: 2vh;
+        border-radius: 2vh;
+}
+
+.subheading12
+{
+    border: 0vh solid red;
+    background-color: rgb(20, 63, 107);
+        width: 25vw;
+        height: 7.5vh;
+        border-radius: 2vh;
+    margin-left: 30vw;
+}
+
+.paragraph17
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 30vw;
+        height: 17.5vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    margin-left: 14vw;
+}
+
+.spacer_3 /** A DIFFERENT VERSION OF SPACER **/
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 20vw;
+        height: 3vh;
+}
+
+.paragraphsubbox3_4 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX3 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 9vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.paragraphsubbox3_4_1 /** A DIFFERENT VERSION OF PARAGRAPHSUBBOX3_4 **/
+{
+    border: 0vh solid black;
+        width: 78vw;
+        height: 20vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.subheading13
+{
+    border: 0vh solid red;
+    background-color: rgb(20, 63, 107);
+        width: 40vw;
+        height: 7.5vh;
+        border-radius: 2vh;
+}
+
+.subheading14
+{
+    border: 0vh solid red;
+    background-color: rgb(20, 63, 107);
+        width: 40vw;
+        height: 7.5vh;
+        border-radius: 2vh;
+    margin-left: 20vw;
+}
+
+.paragraph18
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 30vw;
+        height: 45vh;
+        padding: 2vh;
+        border-radius: 2vh;
+}
+
+.paragraph19
+{
+    border: 0vh;
+        background-color: rgb(20, 63, 107);
+        width: 30vw;
+        height: 27.5vh;
+        padding: 2vh;
+        border-radius: 2vh;
+    margin-left: 14vw;
+}
+
+
+
+
